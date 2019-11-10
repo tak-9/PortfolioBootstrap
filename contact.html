@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 
 <head>
+    <meta name="viewport" content="width-device-width, initial-scale=1">
     <title>Takuji Okubo</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="./assets/css/bio.css">
 </head>
 
 <body>
     <header>
-        <h1>Takuji Okubo</h1>
-        <a href="index.html">About</a>&nbsp;&nbsp; |
-        &nbsp;&nbsp; <a href="portfolio.html">Portofolio</a> &nbsp;&nbsp;|
-        &nbsp;&nbsp; <a href="contact.html">Contact</a></div>
+        <div class="container-fluid containerOutsideHeader">
+            <div class="container containerInsideHeader">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4 text-center topTitle">Takuji Okubo</div>
+                    <div class="col-12 col-sm-12 col-md-8 links" style="padding: 20px">
+                        About | Portofolio | Contact
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
-    <h1>Contact</h1>
-    <div class="form-group">
-        <form>
-            Name<br>
-            <input type="text" class="form-control"></input><br>
-            E-mail<br>
-            <input type="text" class="form-control"></input><br>
-            Message<br>
-            <textarea class="form-control"></textarea><br>
-            <input type="submit" value="Submit" class="btn btn-primary">
-        </form>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-980px-8 content">
+                <h1 class="contentTitle">Contact</h1>
+
+                <div class="form-group">
+                    <form>
+                        Name<br>
+                        <input type="text" class="form-control"></input><br>
+                        E-mail<br>
+                        <input type="text" class="form-control"></input><br>
+                        Message<br>
+                        <textarea class="form-control"></textarea><br>
+                        <input type="submit" value="Submit" class="button">
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-    <footer>
-        <div class=copyright>Copyright (c) Takuji Okubo</div>
+
+    <footer class="foot text-center">
+        Copyright (c) Takuji Okubo
     </footer>
 </body>
