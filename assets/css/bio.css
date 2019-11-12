@@ -25,6 +25,11 @@ h1 {
     font-weight: bold;
 }
 
+a {
+    text-decoration: none;
+    color: #4AAAA5; 
+}
+
 .topTitle{ 
     background:#4AAAA5;
     color: white;
@@ -38,6 +43,26 @@ h1 {
 /* If screen size is 768px or larger, align text right.*/
 .links { 
     text-align: right;
+
+}
+
+.portfolioPhoto{
+    width: 200px;
+    position: relative;
+}
+
+.portfolioPhotoCaption{
+    top: 70%;
+    width: 100%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #4AAAA5;
+    text-align: center;
+    position: absolute;
+}
+
+.card-columns {
+    column-count: 2;
 }
 
 /* If screen size is smaller than 768px, align text centre.*/
@@ -45,6 +70,14 @@ h1 {
     .links { 
         text-align: center;
     }
+    .portfolioPhoto{
+        width: 400px;
+        position: relative;
+    }
+    .card-columns {
+        column-count: 1;
+    }
+    
 }
 
 @media screen and (min-width: 980px){
