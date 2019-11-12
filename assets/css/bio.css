@@ -6,18 +6,6 @@ html,body {
     margin: 0px;
 }
 
-@media screen and (max-width: 768px) {
-    .containerInsideHeader { 
-        max-width:100%;
-    }
-}
-
-.containerOutsideHeader { 
-    background: white;
-    border-bottom: 2px solid #cccccc;
-    padding: 0px;
-}
-
 h1 { 
     font-size: 30px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -40,12 +28,6 @@ a {
     padding: 10px;
 }
 
-/* If screen size is 768px or larger, align text right.*/
-.links { 
-    text-align: right;
-
-}
-
 .portfolioPhoto{
     width: 200px;
     position: relative;
@@ -61,12 +43,29 @@ a {
     position: absolute;
 }
 
+/* If screen size is 768 or larger, 2 columns for photos. */
 .card-columns {
     column-count: 2;
 }
 
-/* If screen size is smaller than 768px, align text centre.*/
+/* If screen size is 768px or larger, align text right.*/
+.links { 
+    text-align: right;
+
+}
+
+.containerOutsideHeader { 
+    background: white;
+    border-bottom: 2px solid #cccccc;
+    padding: 0px;
+}
+
+/* If screen size is smaller than 768px, */
 @media screen and (max-width: 767px) {
+    .containerInsideHeader { 
+        max-width: 100%;
+    }
+
     .links { 
         text-align: center;
     }
@@ -76,8 +75,7 @@ a {
     }
     .card-columns {
         column-count: 1;
-    }
-    
+    }    
 }
 
 @media screen and (min-width: 980px){
