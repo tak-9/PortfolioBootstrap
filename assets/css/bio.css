@@ -31,8 +31,9 @@ a {
 }
 
 .portfolioPhotoCaption{
-    top: 70%;
+    top: 75%;
     width: 100%;
+    padding: 3px;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: #4AAAA5;
@@ -48,7 +49,6 @@ a {
 /* If screen size is 768px or larger, align text right.*/
 .links { 
     text-align: right;
-
 }
 
 .containerOutsideHeader { 
