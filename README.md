@@ -18,7 +18,7 @@ Open chrome and change the web browser size as follows:
 3. Change the screen size by choosing a mobile phone model to change browser size. 
 
 The layout of the website should change accordingly. 
-<img src="https://raw.githubusercontent.com/tak-9/week2/master/week2_screencapture.png">
+<img src="https://raw.githubusercontent.com/tak-9/week2/master/week2_screencapture.png" height="100px">
 
 
 ## Credits
