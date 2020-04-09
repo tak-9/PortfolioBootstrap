@@ -7,7 +7,7 @@ This is a protofolio for the week2. Bootstrap is used for this page to implement
 
 ## Installation
 Installatin is not requried as this is a webpage. 
-Simply open your web browser and access to https://tak-9.github.io/week2/
+Simply open your web browser and access to https://tak-9.github.io/PortfolioBootstrap
 
 ## Usage 
 Change the browser size in order to display mobile version.
